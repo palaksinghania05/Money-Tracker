@@ -68,13 +68,13 @@ const DeleteExpensePage = () => {
                 variant="FillBluegray100"
               ></Input>
               <Row className="bg-lime_800 flex flex-row md:flex-wrap sm:flex-wrap items-start justify-end md:mt-[10px] mt-[15px] sm:mt-[8px] p-[13px] sm:p-[7px] md:p-[9px] w-[100%]">
-                <Text
-                  className="flex-grow font-medium sm:mt-[2px] md:mt-[3px] mt-[5px] text-black_900"
-                  as="h3"
-                  variant="h3"
-                >
-                  1. Milk Rs. 1500 Rs. 13500
-                </Text>
+              <Input
+                className="font-medium p-[0] text-[20px] placeholder:text-black_900 text-black_900 w-[100%]"
+                wrapClassName="md:mt-[10px] mt-[15px] sm:mt-[8px] w-[100%]"
+                name="language One"
+                placeholder="1.                                             Milk                                                             Rs. 1500                                         Rs. 13500"
+                size="md"
+              ></Input>
                 <Img
                   src="images/img_icons8remove3.png"
                   className="flex-shrink-0 sm:h-[18px] md:h-[23px] h-[32px] max-w-[100%] mb-[4px] md:ml-[12px] ml-[17px] sm:ml-[9px] sm:w-[17px] md:w-[22px] w-[32px]"
@@ -82,13 +82,12 @@ const DeleteExpensePage = () => {
                 />
               </Row>
               <Row className="bg-lime_800 flex flex-row md:flex-wrap sm:flex-wrap items-center justify-end md:mt-[10px] mt-[15px] sm:mt-[8px] p-[13px] sm:p-[7px] md:p-[9px] w-[100%]">
-                <Text
-                  className="flex-grow font-medium text-black_900"
-                  as="h3"
-                  variant="h3"
-                >
-                  2. Vegetables Rs. 1000 Rs. 12500
-                </Text>
+              <Input
+                className="font-medium p-[0] text-[20px] placeholder:text-black_900 text-black_900 w-[100%]"
+                wrapClassName="md:mt-[10px] mt-[15px] sm:mt-[8px] w-[100%]"
+                name="language Two"
+                placeholder="2.                                       Vegetables                                                      Rs. 1000                                         Rs. 12500"
+              ></Input>
                 <Img
                   src="images/img_icons8remove3.png"
                   className="flex-shrink-0 sm:h-[18px] md:h-[23px] h-[32px] max-w-[100%] mb-[4px] md:ml-[10px] ml-[14px] sm:ml-[7px] sm:w-[17px] md:w-[22px] w-[32px]"
@@ -96,13 +95,12 @@ const DeleteExpensePage = () => {
                 />
               </Row>
               <Row className="bg-lime_800 flex flex-row md:flex-wrap sm:flex-wrap items-center justify-end sm:mt-[12px] md:mt-[15px] mt-[22px] p-[13px] sm:p-[7px] md:p-[9px] w-[100%]">
-                <Text
-                  className="flex-grow font-medium text-black_900"
-                  as="h3"
-                  variant="h3"
-                >
-                  3. Car Servicing Rs. 4000 Rs. 8500
-                </Text>
+              <Input
+                className="font-medium p-[0] text-[20px] placeholder:text-black_900 text-black_900 w-[100%]"
+                wrapClassName="md:mt-[15px] mt-[22px] sm:mt-[12px] w-[100%]"
+                name="language Three"
+                placeholder="3.                                      Car Servicing                                                   Rs. 4000                                         Rs. 8500"
+              ></Input>
                 <Img
                   src="images/img_icons8remove3.png"
                   className="flex-shrink-0 sm:h-[18px] md:h-[23px] h-[32px] max-w-[100%] sm:ml-[10px] md:ml-[13px] ml-[19px] my-[2px] sm:w-[17px] md:w-[22px] w-[32px]"
@@ -110,13 +108,13 @@ const DeleteExpensePage = () => {
                 />
               </Row>
               <Row className="bg-lime_800 flex flex-row md:flex-wrap sm:flex-wrap items-start justify-end sm:mt-[11px] md:mt-[14px] mt-[20px] p-[11px] sm:p-[6px] md:p-[7px] w-[100%]">
-                <Text
-                  className="flex-grow font-medium sm:mt-[2px] md:mt-[3px] mt-[5px] text-black_900"
-                  as="h3"
-                  variant="h3"
-                >
-                  4. Fruits Rs. 500 Rs. 8000
-                </Text>
+              <Input
+                className="font-medium p-[0] text-[20px] placeholder:text-black_900 text-black_900 w-[100%]"
+                wrapClassName="md:mt-[14px] mt-[20px] sm:mt-[11px] w-[100%]"
+                name="language Four"
+                placeholder="4.                                           Fruits                                                             Rs. 500                                           Rs. 8000"
+                size="md"
+              ></Input>
                 <Img
                   src="images/img_icons8remove3.png"
                   className="flex-shrink-0 sm:h-[18px] md:h-[23px] h-[32px] max-w-[100%] sm:mb-[3px] md:mb-[4px] mb-[6px] sm:ml-[10px] md:ml-[13px] ml-[19px] mt-[2px] sm:w-[17px] md:w-[22px] w-[32px]"
@@ -124,13 +122,12 @@ const DeleteExpensePage = () => {
                 />
               </Row>
               <Row className="bg-lime_800 flex flex-row md:flex-wrap sm:flex-wrap items-center justify-end md:mt-[10px] mt-[15px] sm:mt-[8px] p-[11px] sm:p-[6px] md:p-[7px] w-[100%]">
-                <Text
-                  className="flex-grow font-medium text-black_900"
-                  as="h3"
-                  variant="h3"
-                >
-                  5. Maid Salary Rs. 1000 Rs. 7000
-                </Text>
+              <Input
+                className="font-medium p-[0] text-[20px] placeholder:text-black_900 text-black_900 w-[100%]"
+                wrapClassName="md:mt-[10px] mt-[15px] sm:mt-[8px] w-[100%]"
+                name="language Five"
+                placeholder="5.                                       Maid Salary                                                      Rs. 1000                                          Rs. 7000"
+              ></Input>
                 <Img
                   src="images/img_icons8remove3.png"
                   className="flex-shrink-0 sm:h-[18px] md:h-[23px] h-[32px] max-w-[100%] sm:mb-[3px] md:mb-[4px] mb-[6px] md:ml-[12px] ml-[17px] sm:ml-[9px] mt-[2px] sm:w-[17px] md:w-[22px] w-[32px]"
